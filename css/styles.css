@@ -220,7 +220,8 @@ img {
 }
 
 /* btn */
-.button {
+
+.btn-blue {
     width: 200px;
     height: 50px;
 
@@ -232,8 +233,11 @@ img {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: var(--button-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+.button {
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     transition: background-color var(--transition);
 }
@@ -250,7 +254,7 @@ img {
 }
 
 .section-title-hidden {
-    display: none;
+    visibility: hidden;
 }
 
 .advantages {
@@ -503,6 +507,7 @@ img {
     margin-top: 12px;
     margin-bottom: 40px;
     margin-left: 70px;
+    margin-right: 93px;
 }
 
 .join .title {
@@ -543,6 +548,55 @@ img {
 .f-c-icon:not(:last-child) {
     margin-right: 10px;
 }
+
+/* footer form */
+
+.f-form {
+    display: flex;
+}
+
+.footer-form {
+    margin-top: 12px;
+}
+
+.f-f-title {
+    display: inline-block;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--txt-light-cl);
+}
+
+.f-f-email {
+    font-family: var(--main-font), sans-serif;
+    width: 358px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    margin-right: 12px;
+
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.btn-f-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-f-svg {
+    margin-left: 10px;
+
+    fill: var(--txt-light-cl);
+}
+
 /* backdrop */
 
 .backdrop {
